@@ -7,6 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
+  // eslint-disable-next-line no-unused-vars
   const { img, paragraphOne, paragraphTwo, paragraphThree, CV } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
@@ -55,7 +56,7 @@ const About = () => {
                   download
                   rel="noreferrer"
                 >
-                  CLICK HERE TO SEE MY CV
+                  Download My CV
                 </a>
               </div>
             </Fade>

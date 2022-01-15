@@ -3,7 +3,6 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import ReactTypingEffect from 'react-typing-effect';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -44,8 +43,6 @@ const Header = () => {
         </Fade>
       </Container>
     </section>
-    
-    
   );
 };
 
