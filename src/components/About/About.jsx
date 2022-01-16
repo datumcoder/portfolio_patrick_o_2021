@@ -51,7 +51,7 @@ const About = () => {
                 </p>
                 <a
                   style={{ color: 'green', backgroundColor: '#fff' }}
-                  href="https://drive.google.com/file/d/1fW1ML4rVIGTGFeIo3aiNUIdi_OEo-CNp/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1n5bCTIBsZIniNK6gLy5wvawH_qfimEd9/view?usp=sharing"
                   target="_blank"
                   download
                   rel="noreferrer"
